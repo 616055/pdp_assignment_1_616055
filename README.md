@@ -7,13 +7,13 @@ _Count the number of ratings given for each movie_
 **GitHub URL:** [https://github.com/616055/pdp\_assignment\_1\_616055/tree/master](https://github.com/616055/pdp_assignment_1_616055/tree/master)
 
 ## **Steps to execute code**
-
-Run the following command to run in locally:  
+1.	Start a SSH connection with a Hadoop Sandbox Virtual Machine
+2.	Clone the repository from this GitHub into a directory inside the Virtual Machine
+3.	Run the following command to run it without Hadoop:
 ```
 python assignment1.py
 ```
-
-Run the following command to run it within Hadoop:  
+4.	Run the following command to run it within Hadoop:
 ```
 python assignment1.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data
 ```
